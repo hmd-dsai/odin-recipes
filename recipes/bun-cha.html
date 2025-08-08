@@ -4,21 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bún chả Hà Nội</title>
-        <style>
-            /* This is CSS */
-            body {
-                font-family: 'Times New Roman', serif;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="../index.html">Home</a>
-        <h1>Bún chả Hà Nội</h1>
-        <img src="../img/bun-cha.jpg" alt="Bún chả Hà Nội" width="500">
-        <h2>Mô tả</h2>
-            <p>Nhắc đến Hà Nội người ta nhớ ngay đến nền ẩm thực lâu đời với các món ngon như kem tràng tiền, cốm, bún thang, bún ốc,...và không thể không nhắc đến món bún chả Hà Nội trứ danh, nức tiếng cả trong và ngoài nước.</p>
-        <h2>Nguyên liệu</h2>
-            <ul>
+        <a class="home" href="../index.html">Trang chủ</a>
+        <div class="block title">
+            <img src="../img/bun-cha.jpg" alt="Bún chả Hà Nội" class="image">
+            <h1>BÚN CHẢ HÀ NỘI</h1>
+            <p>Nhắc đến Hà Nội người ta nhớ ngay đến nền ẩm thực lâu đời với các món ngon như kem tràng tiền, cốm, bún thang, bún ốc,...và không thể không nhắc đến món <strong>bún chả Hà Nội</strong> trứ danh, nức tiếng cả trong và ngoài nước.</p>
+        </div>
+        <div class="block">
+            <h2>Nguyên liệu</h2>
+            <ul class="ingredients">
                 <li>Bún tươi: 1 kg</li>
                 <li>Thịt ba chỉ: 700 g</li>
                 <li>Thịt heo xay nhuyễn: 500 g</li>
@@ -36,10 +33,12 @@
                 <li>Dầu ăn: 1 ít</li>
                 <li>Gia vị thông dụng (muối/ đường/ tiêu xay/ hạt nêm/ bột ngọt): 1 ít</li>
             </ul>
-        <h2>Cách chế biến</h2>
-            <ol>
+        </div>
+        <div class="block">
+            <h2>Cách chế biến</h2>
+            <ol class="steps">
                 <li><strong>Sơ chế và ướp thịt</strong>
-                    <ul>
+                    <ul class="substeps">
                         <li>Đối với thịt ba chỉ, để loại sạch bụi bẩn và mùi hôi các bạn mang đi chà sạch với muối, sau đó rửa lại với nước lạnh và để ráo. Dùng dao cắt thịt thành các miếng mỏng vừa ăn.</li>
                         <li>Ướp thịt với 1/2 muỗng canh hành tím băm, 1/2 muỗng canh tỏi băm, 1/2 muỗng canh hạt nêm, 1/2 muỗng canh bột ngọt, 1/2 muỗng canh tiêu xay, 2 muỗng canh nước mắm, 1 muỗng canh dầu hào, 2 muỗng canh mật ong, 1 muỗng canh nước màu, sau đó trộn đều và để cho thịt thấm gia vị ít nhất khoảng 30 phút.</li>
                         <li>Về phần thịt xay, các bạn cho 1/2 muỗng canh hành tím băm và 1/2 muỗng canh tỏi băm, 1/2 muỗng canh hạt nêm, 1/2 muỗng canh bột ngọt, 1/2 muỗng canh tiêu xay, 1.5 muỗng canh nước mắm, 1 muỗng canh dầu hào, 1 muỗng canh mật ong, 1 muỗng canh nước màu. Dùng tay trộn đều và ướp thịt khoảng 30 phút cho thấm gia vị.</li>
@@ -47,29 +46,30 @@
                     </ul>
                 </li>
                 <li><strong>Sơ chế các nguyên liệu khác</strong>
-                    <ul>
+                    <ul class="substeps">
                         <li>Để loại sạch nhựa và bụi bẩn, cà rốt, đu đủ khi mua về các bạn gọt vỏ, sau đó mang ngâm với nước muối pha loãng khoảng 5 - 10 phút sau đó xả sạch lại với nước rồi để ráo.</li>
                         <li>Tiến hành tỉa hoa cho cà rốt, sau đó cắt cà rốt và đu đủ lát mỏng rồi cho vào tô. Cho tiếp 1/3 muỗng canh muối vào tô rồi trộn đều, ướp khoảng 15 phút sau đó rửa sạch cà rốt và đu đủ lại với nước.</li>
                         <li>Thêm tiếp 1.5 muỗng canh đường, 1/4 muỗng canh muối, 1 muỗng canh giấm, 1/2 muỗng canh tỏi băm vào rồi trộn đều và ướp thêm 15 phút nữa.</li>
                     </ul>
                 </li>
                 <li><strong>Nướng thịt</strong>
-                    <ul>
+                    <ul class="substeps">
                         <li>Dùng cọ phết một lớp mỏng dầu ăn lên bếp nướng điện, xếp thịt ba chỉ và thịt viên lên trên. Tiến hành nướng thịt đến khi chín vàng đều 2 mặt thì gắp ra tô.</li>
-                        <li><strong>Lưu ý: </strong>Nếu có điều kiện hơn thì bạn nên nướng thịt với bếp nướng than hoa. Như vậy thịt sẽ có mùi khói và càng đúng chuẩn hơn.</li>
+                        <strong class="attention">Lưu ý: </strong>Nếu có điều kiện hơn thì bạn nên nướng thịt với bếp nướng than hoa. Như vậy thịt sẽ có mùi khói và càng đúng chuẩn hơn.
                     </ul>
                 </li>
                 <li><strong>Nấu nước mắm</strong>
-                    <ul>
+                    <ul class="substeps">
                         <li>Bắc nồi lên bếp, cho vào non 1 chén nước mắm (khoảng 200ml), non 1 chén đường (khoảng 200gr), 1/2 chén giấm (khoảng 100ml) và 2 chén nước lọc vào và tiến hành nấu ở lửa lớn cho các gia vị tan hoàn toàn và nước mắm bắt đầu sôi thì tắt bếp. Nêm nếm lại gia vị sao cho vừa miệng của gia đình mình nhé!</li>
                     </ul>
                 </li>
                 <li><strong>Thành phẩm</strong>
-                    <ul>
+                    <ul class="substeps">
                         <li>Xếp thịt nướng, bún và rau sống ra dĩa. Cho cà rốt, đu đủ ngâm chua và 1 ít ớt băm ra bát sau đó cho nước mắm đường vừa nấu vào rồi khuấy đều là hoàn thành.</li>
                         <li>Chỉ với vài bước đơn giản chúng ta đã món bún chả Hà Nội thơm lừng, hấp dẫn chẳng thua kém ngoài hàng. Khi ăn các bạn gắp 1 ít thịt nướng, bún và rau thơm vào bát nước mắm rồi thưởng thức. Thịt có vị đậm đà, thơm hương của sả và hành, ăn cùng với nước mắm chua ngọt, rau thơm và đồ chua giúp cân bằng vị giác, khiến bạn cứ muốn ăn mãi không ngừng. Nhanh tay vào bếp và làm thử ngay món này nhé!</li>
                     </ul>
                 </li>
             </ol>
+        </div>
     </body>
 </html>

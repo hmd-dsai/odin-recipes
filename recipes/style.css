@@ -1,0 +1,71 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #ffe0a2;
+    font-size: 16px;
+    padding: 2rem;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    border-top: 2px solid #ddd;
+    padding-top: 1.75rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    border-bottom: 2px solid #ddd;
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.block {
+    background-color: #fcf9ed;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 48px auto;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.ingredients {
+    line-height: 1.5em;
+}
+
+.steps {
+    counter-reset: step-counter;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.steps > li {
+    margin-bottom: 2rem;
+}
+
+.substeps {
+    line-height: 1.5em;
+    list-style: disc inside;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.substeps li {
+  margin-bottom: 0.75rem;
+}
+
+.substeps .attention {
+  font-weight: bold;
+  color: #c0392b;
+}
